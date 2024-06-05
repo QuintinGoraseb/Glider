@@ -9,10 +9,39 @@
     }
 
     body {
+        font-family: 'Lato';
         background-color: #285192;
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+        @apply overflow-y-scroll 
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    p {
+        font-family: 'Lato';
     }
 
     li {
-        @apply p-4 text-sm
+        font-family: 'Lato';
     }
+
+    /* For WebKit browsers */
+    ::-webkit-scrollbar {
+        height: 8px; /* Adjust the height of the horizontal scrollbar */
+        width: .5px;
+        color: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #888; /* Color of the scrollbar thumb */
+        border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555; /* Color when hovering over the scrollbar thumb */
+    }
+
 }

@@ -1,9 +1,20 @@
+import { useState } from 'react';
+import {FaBars} from 'react-icons/fa'
 
 
 
-export default function TopBar() {
+
+
+export default function SuperNav() {
+    const [nav, setNav] = useState(false)
+    const handleNav = () => {
+        setNav(!nav)
+    }
+
+
     return(
-        <header className="">
+
+        <header className='w-full justify-between items-center absolute max-auto px-10 sm:px-20 text-white'>
             <div className="flex justify-between items-center h-14">
                 <div className="flex items-center space-x-6 z-10">
                     {/*<-- Email --/>*/}
@@ -12,17 +23,17 @@ export default function TopBar() {
                     <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
                     <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
                     </svg>
-                    <span className="text-xs text-white">info@glider.com.na</span>
+                    <span className="text-xs text-white font-lato">info@glider.com.na</span>
                     </a>
                     {/*<-- Phone --/>*/}
                     <a href="" className="flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-3 fill-white">
                     <path fillRule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-xs text-white">+264 000 000</span>
+                    <span className="text-xs text-white font-lato">+264 000 000</span>
                     </a>
                 </div>
-                <div className="flex gap-4 z-10">
+                <div className="hidden sm:flex gap-4 z-10">
                     {/* <!-- Twitter --> */}
                     <a href="" className="LINK">
                     <svg
@@ -65,7 +76,43 @@ export default function TopBar() {
                     </a>
                 </div>
             </div>
-         
+            <hr
+            className="mb-0 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-100 to-transparent opacity-25 dark:opacity-100"/>
+            <div className=''>
+                {/* Main Menu */}
+                <div className="flex items-center gap-2">
+                    <img src="/logo.png" className="size-11" alt="Logo" />
+                    <a href="" className="Link">
+                        <span className="text-2xl font-bold font-lato">GLIDER</span>
+                    </a>
+                </div>
+                <div>
+                    <ul className="hidden sm:flex">
+                        <li><a href="/" className="hover:text-gray-300 pr-4" >Home</a></li>
+                        <li><a href="#" className="hover:text-gray-300 pr-4">About</a></li>
+                        <li><a href="#" className="hover:text-gray-300 pr-4">Services</a></li>
+                        <li><a href="#" className="hover:text-gray-300 pr-4">Graduate Hub</a></li>
+                        <li><a href="#" className="hover:text-gray-300 pr-4">FAQ</a></li>
+                        <li><a href="#" className="hover:text-gray-300">Contact</a></li>
+                    </ul>
+                </div>
+                {/* Hamburger Menu */}
+                <div onClick={handleNav} className='sm:hidden z-10'>
+                    <FaBars size={20} className='mr-4 cursor-pointer' />
+                </div>
+                {/* Mobile Menu */}
+                <div onClick={handleNav} className={nav ? 'overflow-y-hidden md:hidden ease-in duration-300 absolute text-gray-300 left-0 top-0 w-full h-screen bg-black/90 px-4 py-7 flex flex-col' : 'absolute top-0 h-screen left-[-100%] ease-in duration-500'}>
+                    <ul className="h-full w-full text-center pt-12">
+                        <li className='text-2xl py-4'><a href="#" className="hover:text-gray-300" >Home</a></li>
+                        <li className='text-2xl py-4'><a href="#" className="hover:text-gray-300">About</a></li>
+                        <li className='text-2xl py-4'><a href="#" className="hover:text-gray-300">Services</a></li>
+                        <li className='text-2xl py-4'><a href="#" className="hover:text-gray-300">Graduate Hub</a></li>
+                        <li className='text-2xl py-4'><a href="#" className="hover:text-gray-300">FAQ</a></li>
+                        <li className='text-2xl py-4'><a href="#" className="hover:text-gray-300">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </header>
+
     );
 }

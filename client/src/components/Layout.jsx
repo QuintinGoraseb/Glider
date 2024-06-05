@@ -1,7 +1,9 @@
+import TopBar from "./TopBar";
 import { Outlet } from "react-router-dom";
 import Header from "./Header";
 import Hero from "./Hero";
-import TopBar from "./TopBar";
+import Footer from "./Footer";
+
 
 export default function Layout() {
     return(
@@ -10,6 +12,7 @@ export default function Layout() {
             <Header />
             <Hero />
             <Outlet />
+            <Footer />
         </div>
     );
 }
