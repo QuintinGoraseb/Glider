@@ -7,13 +7,14 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('/home/hadoop/Dev/Glider/client/src/assets/logo.png')",
+        'hero': "url('/focus.jpg')",
       },
 
       colors: {
         primary: '#285192',
         secondary: '#848D9C',
         tertiary: '#F5F5F5',
+        primbtn: '#373A40',
       }
     },
   },

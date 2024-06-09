@@ -1,7 +1,7 @@
-import IndexBody from "../components/IndexBody";
-import Footer from "../components/Footer";
 import SuperNav from "../components/SuperNav";
 import BigHero from "../components/BigHero";
+import IndexBody from "../components/IndexBody";
+import Footer from "../components/Footer";
 
 
 export default function IndexPage() {
@@ -10,9 +10,7 @@ export default function IndexPage() {
       <>
          <SuperNav />
          <BigHero />
-         <main className="flex-grow">
          <IndexBody />
-         </main>
          <Footer />
       </>
    );
