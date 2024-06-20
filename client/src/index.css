@@ -9,8 +9,8 @@
     }
 
     body {
-        font-family: 'Lato';
-        background-color: #f5f5f5;
+        font-family: 'Whyte';
+        background-color: #ffff;
         overflow-x: hidden; /* Hide horizontal scrollbar */
         @apply overflow-y-scroll
     }
@@ -19,14 +19,75 @@
     h2,
     h3,
     h4,
-    h5,
-    p {
-        font-family: 'Lato';
+    h5 {
+        font-family: 'Whyte';
+        font-weight: bold;
+        font-style: normal;
     }
 
-    li {
-        font-family: 'Lato';
+    li,
+    p {
+        font-family: 'Whyte';
+        font-weight: normal;
+        font-style: normal;
     }
+    
+    .btn {
+        @apply rounded-full uppercase tracking-[1.82px] flex items-center justify-center transition-all
+    }
+
+    .btn-sm {
+        @apply h-14 px-10 
+    }
+
+    .btn-lg {
+        @apply h-16 px-[58px]
+    }
+
+    .btn-white {
+        @apply bg-white text-secondary hover:bg-[white/98]
+    }
+
+    .herobtn {
+        @apply h-[75px] px-[30px] transition-all duration-300 ease-in-out hover:scale-110 text-[#f6f6f6] rounded-[18px] flex items-center gap-2
+    }
+
+    .learnbtn {
+        @apply h-[35px] px-[10px] transition-all duration-300 ease-in-out hover:scale-110 flex items-center gap-2 mt-3 -mb-3 bg-[#f6f6f6] rounded-[30px] 
+    }
+
+    .bodybtn {
+        @apply h-[60px] px-[10px] xl:h-[75px] px-[30px] transition-all duration-300 ease-in-out hover:scale-110 text-[#f6f6f6] rounded-[18px] flex items-center gap-2
+    }
+
+    .bg_services {
+        @apply bg-slate-600
+    }
+
+    .section {
+        @apply px-12 py-12 xl:py-[60px] xl:px-[80px]
+    }
+
+    .h1 {
+        @apply text-[36px] xl:text-[64px] font-semibold
+    }
+
+    .h2 {
+        @apply text-[30px] xl:text-[44px] font-semibold capitalize tracking-[0.44px]
+    }
+
+    .h3 {
+        @apply text-[20px] xl:text-[26px] font-semibold
+    }
+
+    .h4 {
+        @apply text-[20px] xl:text-[26px] font-semibold capitalize
+    }
+
+    .faq__item.open .faq__answer {
+        @apply h-full
+    }
+
 
     /* For WebKit browsers */
     ::-webkit-scrollbar {
@@ -42,10 +103,6 @@
 
     ::-webkit-scrollbar-thumb:hover {
         background: #555; /* Color when hovering over the scrollbar thumb */
-    }
-
-    .btn {
-        @apply h-[75px] px-[30px] transition-all duration-300 ease-in-out hover:scale-110 text-white rounded-[18px] flex items-center gap-2
     }
 
 }
