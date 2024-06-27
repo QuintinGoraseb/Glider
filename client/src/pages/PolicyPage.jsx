@@ -1,8 +1,8 @@
 import PHero from "../components/Policy/PHero";
-import SuperNav from "../components/SuperNav";
 import PolicyBody from "../components/Policy/PolicyBody";
 import Footer from "../components/Footer";
 import Back2Top from "../components/Back2Top";
+import TestNav from "../components/TestNav";
 
 
 
@@ -10,7 +10,7 @@ import Back2Top from "../components/Back2Top";
 export default function PolicyPage() {
     return(
         <>
-        <SuperNav />
+        <TestNav />
         <PHero />
         <PolicyBody />
         <Back2Top />

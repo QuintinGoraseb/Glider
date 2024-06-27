@@ -7,7 +7,7 @@ export default function IndexBody() {
         {/** Information Bar **/}
         <section className="mx-2 my-4 xl:section">
             <div className="container mx-auto">
-                <div className="bg-[#ffff] shadow-custom5 p-6  max-w-[1466px] w-full rounded-[30px] relative xl:flex xl:mt-[-165px] gap-3 xl:z-30">
+                <div className="bg-[#ffff] shadow-custom7 p-6  max-w-[1466px] w-full rounded-[30px] relative xl:flex xl:mt-[-165px] gap-3 xl:z-30">
                     <div className="pb-4">
                         <div className="flex gap-2 items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-10">
@@ -15,7 +15,7 @@ export default function IndexBody() {
                             <path fillRule="evenodd" d="M20.25 10.332v9.918H21a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5h.75v-9.918a.75.75 0 0 1 .634-.74A49.109 49.109 0 0 1 12 9c2.59 0 5.134.202 7.616.592a.75.75 0 0 1 .634.74Zm-7.5 2.418a.75.75 0 0 0-1.5 0v6.75a.75.75 0 0 0 1.5 0v-6.75Zm3-.75a.75.75 0 0 1 .75.75v6.75a.75.75 0 0 1-1.5 0v-6.75a.75.75 0 0 1 .75-.75ZM9 12.75a.75.75 0 0 0-1.5 0v6.75a.75.75 0 0 0 1.5 0v-6.75Z" clipRule="evenodd" />
                             <path d="M12 7.875a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25Z" />
                             </svg>
-                            <h3 className="h3">Number One</h3>
+                            <h3 className="h3">OUR MISSION</h3>
                         </div>
                         <p className="pl-[50px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, consectetur.</p>
                     </div>
@@ -26,7 +26,7 @@ export default function IndexBody() {
                             <path fillRule="evenodd" d="M20.25 10.332v9.918H21a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5h.75v-9.918a.75.75 0 0 1 .634-.74A49.109 49.109 0 0 1 12 9c2.59 0 5.134.202 7.616.592a.75.75 0 0 1 .634.74Zm-7.5 2.418a.75.75 0 0 0-1.5 0v6.75a.75.75 0 0 0 1.5 0v-6.75Zm3-.75a.75.75 0 0 1 .75.75v6.75a.75.75 0 0 1-1.5 0v-6.75a.75.75 0 0 1 .75-.75ZM9 12.75a.75.75 0 0 0-1.5 0v6.75a.75.75 0 0 0 1.5 0v-6.75Z" clipRule="evenodd" />
                             <path d="M12 7.875a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25Z" />
                             </svg>
-                            <h3 className="h3">Number Two</h3>
+                            <h3 className="h3">OUR PLAN</h3>
                         </div>
                         <p className="pl-[50px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, consectetur.</p>
                         </div>
@@ -37,7 +37,7 @@ export default function IndexBody() {
                             <path fillRule="evenodd" d="M20.25 10.332v9.918H21a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5h.75v-9.918a.75.75 0 0 1 .634-.74A49.109 49.109 0 0 1 12 9c2.59 0 5.134.202 7.616.592a.75.75 0 0 1 .634.74Zm-7.5 2.418a.75.75 0 0 0-1.5 0v6.75a.75.75 0 0 0 1.5 0v-6.75Zm3-.75a.75.75 0 0 1 .75.75v6.75a.75.75 0 0 1-1.5 0v-6.75a.75.75 0 0 1 .75-.75ZM9 12.75a.75.75 0 0 0-1.5 0v6.75a.75.75 0 0 0 1.5 0v-6.75Z" clipRule="evenodd" />
                             <path d="M12 7.875a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25Z" />
                             </svg>
-                            <h3 className="h3">Number Three</h3>
+                            <h3 className="h3">OUR PLAN</h3>
                         </div>
                         <p className="pl-[50px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, consectetur.</p>
                     </div>
@@ -203,13 +203,13 @@ export default function IndexBody() {
             </div>
         </section>
         {/** Why Choose Us **/}
-        <section className="mx-2 my-6 xl:section bg-[#f6f6f6]">
+        <section className="mx-2 xl:section bg-[#f6f6f6]">
             <div className="container mx-auto">
                 <div className="flex flex-1 flex-col xl:flex-row">
                     <div className="py-6 xl:pr-20">
-                        <img className="rounded-[30px] h-full" src="https://images.unsplash.com/photo-1714502706043-d1e9da244ff5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8" alt="" />
+                        <img className="rounded-[30px] xl:max-w-[455px]" src="https://images.unsplash.com/photo-1687620432217-d2c93783948a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D" alt="" />
                     </div>
-                    <div>
+                    <div className="">
                         <div className="pt-4 xl:mt-[65px]">
                             <span className="font-meduim leading-normal text-primary uppercase">Why Choose Us</span>
                             <h2 className="h2 font-[lato] text-tertiary py-4">We Offer A Unique Recruitment Service Focused On Executive</h2>
@@ -248,8 +248,93 @@ export default function IndexBody() {
                 </div>
             </div>
         </section>
-        {/** Call To Action **/}
         {/** Our Resources Intro **/}
+        <section className="mx-2 my-6 xl:section">
+            <div className="container mx-auto">
+                <div className="flex flex-1 flex-col xl:flex-row items-center justify-between">
+                    <div className="">
+                        <span className="font-meduim leading-normal text-primary uppercase">Our Resources</span>
+                        <h2 className="h2 font-[lato] text-tertiary py-4">Discover Our News & Resource For Get Knowladge</h2>
+                    </div>
+                    <div className="max-w-[582px]">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur voluptates illo ipsa adipisci sapiente debitis accusamus enim sint, rerum tempore praesentium? Quia, ratione reiciendis. Quo praesentium veniam voluptas. Ipsa, perspiciatis.</p>
+                        <div className="py-4">
+                            <button className="learnbtn p-8 items-center xl:mx-0 text-tertiary"><a href="/about">Explore More</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 fill-[#c0c0c0]">
+                                <path fillRule="evenodd" d="M13.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L11.69 12 4.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clipRule="evenodd" />
+                                <path fillRule="evenodd" d="M19.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06L17.69 12l-6.97-6.97a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clipRule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div className="flex flex-1 flex-col xl:flex-row justify-between gap-6 py-10">
+                    <div className="block rounded-[30px] bg-slate-600 shadow-custom1">
+                        <img className="rounded-[30px]"
+                            src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg"
+                            alt="" />
+                        <div className="p-10">
+                            <h3 className="h3 text-white">Graduate Hub</h3>
+                            <p className="text-white text-justify">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla exercitationem tempora voluptatem sit cumque mollitia sint illum nemo at minus cupiditate qui, saepe placeat id consectetur! Ut tempore distinctio recusandae?
+                            </p>
+                            <button className="learnbtn items-center text-tertiary"><a      href="services">Learn More</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 fill-[#c0c0c0]">
+                                <path fillRule="evenodd" d="M13.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L11.69 12 4.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clipRule="evenodd" />
+                                <path fillRule="evenodd" d="M19.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06L17.69 12l-6.97-6.97a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clipRule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div className="block rounded-[30px] bg-slate-600">
+                        <img className="rounded-[30px]"
+                            src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg"
+                            alt="" />
+                        <div className="p-10">
+                            <h3 className="h3 text-white">Diaspora Bank</h3>
+                            <p className="text-white text-justify">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla exercitationem tempora voluptatem sit cumque mollitia sint illum nemo at minus cupiditate qui, saepe placeat id consectetur! Ut tempore distinctio recusandae?
+                            </p>
+                            <button className="learnbtn items-center text-tertiary"><a      href="services">Learn More</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 fill-[#c0c0c0]">
+                                <path fillRule="evenodd" d="M13.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L11.69 12 4.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clipRule="evenodd" />
+                                <path fillRule="evenodd" d="M19.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06L17.69 12l-6.97-6.97a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clipRule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div className="block rounded-[30px] bg-slate-600">
+                        <img className="rounded-[30px]"
+                            src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg"
+                            alt="" />
+                        <div className="p-10">
+                            <h3 className="h3 text-white">Corporate Expate Support Services</h3>
+                            <p className="text-white text-justify">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla exercitationem tempora voluptatem sit cumque mollitia sint illum nemo at minus cupiditate qui, saepe placeat id consectetur! Ut tempore distinctio recusandae?
+                            </p>
+                            <button className="learnbtn items-center text-tertiary"><a      href="services">Learn More</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 fill-[#c0c0c0]">
+                                <path fillRule="evenodd" d="M13.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L11.69 12 4.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clipRule="evenodd" />
+                                <path fillRule="evenodd" d="M19.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06L17.69 12l-6.97-6.97a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clipRule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {/** Call To Action **/}
+        <section className="cta bg-cta backdrop-filter backdrop-brightness-75">
+            <div className="container mx-auto">
+                <img src="" alt="" />
+                <div className="text-center">
+                    <h4 className="h4 text-white">Need more information?</h4>
+                    <p className="text-white"> Do not sit around with unansweared questions, get in touch and receive more clarity on every aspect of our business.</p>
+                    <a className="cta-btn" href="/contact">Contact Us Now</a>
+                </div>
+
+            </div>
+        </section>
         </>
     );
 }

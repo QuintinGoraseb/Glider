@@ -9,6 +9,10 @@ import FAQ from './pages/FAQ'
 import Contact from './pages/Contact'
 import TermsPage from './pages/TermsPage'
 import PolicyPage from './pages/PolicyPage'
+import Disclaimer from './pages/Disclaimer'
+import Error from './pages/Error'
+import GDPR from './pages/GDPR'
+import Cookies from './pages/Cookies'
 
 
 function App() {
@@ -23,6 +27,10 @@ function App() {
       <Route path='/contact' element={<Contact />} />
       <Route path='/terms' element={<TermsPage />} />
       <Route path='/privacy' element={<PolicyPage />} />
+      <Route path='/disclaimer' element={<Disclaimer />} />
+      <Route path='/error' element={<Error />} />
+      <Route path='/gdpr' element={<GDPR />} />
+      <Route path='/cookies' element={<Cookies />} />
       <Route path='/' element={<Layout />}></Route>
     </Routes>
   )

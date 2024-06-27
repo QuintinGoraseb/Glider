@@ -63,15 +63,14 @@ export default function Footer() {
                                 <li><a href="/btools" className="hover:text-[#c0c0c0] pr-4 transition-all">Business Tools</a></li>
                                 <li><a href="/faq" className="hover:text-[#c0c0c0] pr-4 transition-all">FAQ</a></li>
                                 <li><a href="/contact" className="hover:text-[#c0c0c0] transition-all">Contact</a></li>
-                                <li><a href="/terms" className="hover:text-[#c0c0c0] transition-all">Terms of Use</a></li>
-                                <li><a href="/privacy" className="hover:text-[#c0c0c0] transition-all">Privacy Policy</a></li>
                             </ul>
                             <ul className="flex-1 flex flex-col gap-y-4">
-                                <li><a href="/services" className="hover:text-[#c0c0c0] pr-4 transition-all" >Business Consulting & Outsourcing</a></li>
-                                <li><a href="/services" className="hover:text-[#c0c0c0] pr-4 transition-all">Human Resource Infrastructure</a></li>
-                                <li><a href="/services" className="hover:text-[#c0c0c0] pr-4 transition-all">Compensation & Payroll Outsourcing</a></li>
-                                <li><a href="/services" className="hover:text-[#c0c0c0] pr-4 transition-all">Learning & Development Services</a></li>
-                                <li><a href="/services" className="hover:text-[#c0c0c0] pr-4 transition-all">Labour Relations Consulting</a></li>
+                                <li><a href="/disclaimer" className="hover:text-[#c0c0c0] pr-4 transition-all" >Disclaimer</a></li>
+                                <li><a href="/gdpr" className="hover:text-[#c0c0c0] pr-4 transition-all">GDPR</a></li>
+                                <li><a href="/error" className="hover:text-[#c0c0c0] pr-4 transition-all">404</a></li>
+                                <li><a href="/cookies" className="hover:text-[#c0c0c0] pr-4 transition-all">Cookies Usage</a></li>
+                                <li><a href="/privacy" className="hover:text-[#c0c0c0] pr-4 transition-all">Privacy Policy</a></li>
+                                <li><a href="/terms" className="hover:text-[#c0c0c0] pr-4 transition-all">Terms & Conditions</a></li>
                             </ul>
                         </div>
                     </div>
