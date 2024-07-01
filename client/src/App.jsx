@@ -1,7 +1,7 @@
 import './App.css'
 import {Route, Routes} from "react-router-dom"
 import IndexPage from './pages/IndexPage'
-import ServicesPage from './pages/ServicesPage'
+import Services from './pages/Services'
 import Layout from './components/Layout'
 import About from './pages/About'
 import BTools from './pages/BTools'
@@ -21,7 +21,7 @@ function App() {
       <Route index element={<IndexPage />} />
       <Route path='/home' element={<IndexPage />} />
       <Route path='/about' element={<About />} />
-      <Route path='/services' element={<ServicesPage />} />
+      <Route path='/services' element={<Services />} />
       <Route path='/btools' element={<BTools />} />
       <Route path='/faq' element={<FAQ />} />
       <Route path='/contact' element={<Contact />} />

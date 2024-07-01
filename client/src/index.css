@@ -25,15 +25,14 @@
         font-style: normal;
     }
 
-    li,
-    p {
+    li {
         font-family: 'Whyte';
         font-weight: normal;
         font-style: normal;
     }
 
     .p {
-        @apply font-light leading-normal font-[whyte]
+        @apply font-[oswaldo] font-normal text-justify
     }
     
     .btn {
@@ -84,20 +83,32 @@
         @apply px-12 py-12 xl:py-[60px] xl:px-[80px]
     }
 
+    .FooterSection {
+        @apply px-8 py-8 xl:py-[20px] xl:px-[40px]
+    }
+
     .h1 {
-        @apply text-[36px] xl:text-[64px] font-semibold
+        @apply text-[36px] xl:text-[64px] font-semibold font-[whyte] py-2
     }
 
     .h2 {
-        @apply text-[30px] xl:text-[44px] font-semibold capitalize tracking-[0.44px]
+        @apply text-[30px] xl:text-[44px] font-semibold capitalize font-[whyte] py-2 tracking-[0.44px]
     }
 
     .h3 {
-        @apply text-[20px] xl:text-[26px] font-semibold
+        @apply text-[20px] xl:text-[26px] font-semibold font-[whyte] py-2
     }
 
     .h4 {
-        @apply text-[20px] xl:text-[26px] font-semibold capitalize
+        @apply text-[20px] xl:text-[26px] font-semibold capitalize font-[whyte] py-2
+    }
+
+    .h5 {
+        @apply text-[16px] xl:text-[18px] font-semibold capitalize font-[oswald] py-2
+    }
+
+    .h6 {
+        @apply text-[16px] xl:text-[16px] font-normal font-[oswald]
     }
 
     .faq__item.open .faq__answer {

@@ -3,6 +3,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "/*eslint-env node*/",
   ],
   theme: {
     container: {
@@ -22,8 +23,8 @@ export default {
 
       colors: {
         primary: '#697792',
-        secondary: '#848D9C',
-        tertiary: '#02304A',
+        secondary: '#cdb99f',
+        tertiary: '#31496b',
         primbtn: '#373A40',
       },
 
@@ -35,9 +36,18 @@ export default {
         custom5: '0px 25px 20px -20px rgba(0, 0, 0, 0.45)',
         custom6: 'linear-gradient rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5))',
         custom7: '0px 2px 5px -1px rgba(50, 50, 93, 0.25),  0px 1px 3px -1px rgba(0, 0, 0, 0.3)',
+        custom8: '0px 1px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.06)',
       }
     },
   },
-  plugins: [],
+  corePlugins: {
+    aspectRatio: false,
+  },
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/container-queries'),
+  ],
 }
 

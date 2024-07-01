@@ -13,8 +13,8 @@ export default function BigHero() {
             <div className="hero h-screen xl:h-[695px] bg-hero bg-center bg-cover bg-no-repeat bg-fixed relative z-20">
                 <div className="container max-auto h-full flex items-center justify-center">
                     <div className="top-[40%] w-full text-[#f6f6f6] text-center flex flex-col p-4">
-                        <h1 className="font-[lato] font-bold text-4xl md:text-5xl drop-shadow-2xl"><span className="font-[lato] text-[#C0C0C0]">Glider</span><br/>Human Capital<br/>Business Consultants</h1>
-                        <h2 className="font-[lato] text-lg text-[#C0C0C0]">Tailored solutions to your needs<span className="text-[#f6f6f6]">!</span></h2>
+                        <h1 className="font-[lato] font-bold text-4xl md:text-5xl drop-shadow-2xl"><span className="font-[lato] text-secondary">Glider</span><br/>Human Capital<br/>Business Consultants</h1>
+                        <h2 className="font-[lato] text-lg text-secondary">Tailored solutions to your needs<span className="text-[#f6f6f6]">!</span></h2>
                         <div className="hidden sm:flex flex-col mt-8 items-center">
                             <button className="herobtn bg-primbtn hover:primary items-center mx-auto xl:mx-0 "><a href="/contact">GET IN TOUCH NOW</a>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 fill-[#c0c0c0]">

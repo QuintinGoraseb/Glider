@@ -10,9 +10,13 @@ export default function ContactBody() {
             <div className="container mx-auto">
                 <div className="flex flex-1 flex-col xl:flex-row">
                     <div className="xl:mt-[95px]">
-                        <span className="font-meduim leading-normal text-primary uppercase">Stay Tuned</span>
-                        <h2 className="h2 font-[lato] text-tertiary py-4 ">Stay Tuned & Get In Touch With Us</h2>
-                        <p className="font-light leading-normal pb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloremque tempore repellat molestiae dolorem fuga, amet neque. Vero, est quasi!</p>
+                        <div className="">
+                            <span className="font-[oswald] font-meduim leading-normal text-[#cdb99f] uppercase">Stay Tuned</span>
+                            <h2 className="h2 text-tertiary">
+                                Stay Tuned & Get In Touch With Us
+                            </h2>
+                            <p className="p pb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloremque tempore repellat molestiae dolorem fuga, amet neque. Vero, est quasi!</p>
+                        </div>
                         <div className="block rounded-[30px] bg-[#ffff]">
                             <div className="xl:flex">
                                 <div className="mb-2 xl:mb-0 xl:mr-2">
@@ -24,7 +28,7 @@ export default function ContactBody() {
                                     <h5 className="h5 text-tertiary pb-2">
                                         Head Office Address
                                     </h5>
-                                    <p className="p text-primary text-justify">
+                                    <p className="p text-justify">
                                         Lumbung Hidup St. 425 East Java Madiun City 10000
                                     </p>
                                 </div>
@@ -39,7 +43,7 @@ export default function ContactBody() {
                                 <div>
                                     <h5 className="h5 text-tertiary pb-2">
                                         Email Address</h5>
-                                    <p className="p text-primary text-justify">
+                                    <p className="p text-justify">
                                         info@glider.com.na
                                     </p>
                                 </div>
@@ -52,45 +56,45 @@ export default function ContactBody() {
                                 </div>
                                 <div>
                                     <h5 className="h5 text-tertiary pb-2">Telephone</h5>
-                                    <p className="p text-primary text-justify">
+                                    <p className="p text-justify">
                                         +62 123 456 789
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="my-10 xl:mt-0 bg-[#f6f6f6] rounded-[30px] p-10 xl:ml-10">
-                        <h3 className="h3 text-primary pb-4">Send Us A Message</h3>
+                    <div className="mt-6 xl:mt-0 bg-[#f6f6f6] rounded-[30px] p-10 xl:ml-10">
+                        <h3 className="h3 text-tertiary pb-4">Send Us A Message</h3>
                         <p className="p pb-8 text-justify">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur natus ipsa illum architecto vitae tempora, accusantium facere sapiente dolorem.
                         </p>
                         <form action="">
                             <div className="xl:flex items-center justify-between">
                                 <div className="xl:w-[280px] mb-4">
-                                    <label className="block h5 mb-2 text-primary" htmlFor="First Name">First Name</label>
-                                    <input placeholder="First Name" className="w-full px-3 py-2 rounded-[30px] bg-white focus:border-white" required type="text" />
+                                    <label className="block h5 mb-2 text-tertiary" htmlFor="First Name">First Name</label>
+                                    <input placeholder="First Name" className="w-full px-3 py-2 rounded-[30px] bg-white outline-none focus:border-white" required type="text" />
                                 </div>
                                 <div className="xl:w-[280px] mb-4">
-                                    <label className="block h5 mb-2 text-primary" htmlFor="Last Name">Last Name</label>
-                                    <input placeholder="Last Name" className="w-full px-3 py-2 rounded-[30px] bg-white focus:border-white" required type="text" />
+                                    <label className="block h5 mb-2 text-tertiary" htmlFor="Last Name">Last Name</label>
+                                    <input placeholder="Last Name" className="w-full px-3 py-2 rounded-[30px] bg-white outline-none focus:border-white" required type="text" />
                                 </div>
                             </div>
                             <div className="xl:flex items-center justify-between">
                                 <div className="xl:w-[280px] mb-4">
-                                    <label className="block h5 mb-2 text-primary" htmlFor="Email">Email</label>
-                                    <input placeholder="Email" className="w-full px-3 py-2 rounded-[30px] bg-white focus:border-white" required type="email" />
+                                    <label className="block h5 mb-2 text-tertiary" htmlFor="Email">Email</label>
+                                    <input placeholder="Email" className="w-full px-3 py-2 rounded-[30px] bg-white outline-none focus:border-white" required type="email" />
                                 </div>
                                 <div className="xl:w-[280px] mb-4">
-                                    <label className="block h5 mb-2 text-primary" htmlFor="Subject">Subject</label>
-                                    <input placeholder="Subject" className="w-full px-3 py-2 rounded-[30px] bg-white focus:border-white" required type="text" />
+                                    <label className="block h5 mb-2 text-tertiary" htmlFor="Subject">Subject</label>
+                                    <input placeholder="Subject" className="w-full px-3 py-2 rounded-[30px] bg-white outline-none focus:border-white" required type="text" />
                                 </div>
                             </div>
                             <div className="mb-4">
-                            <label className="block h5 mb-2 text-primary" htmlFor="">Message</label>
-                                <textarea rows='4' placeholder="Message" className="w-full px-3 py-4 rounded-[30px] bg-white focus:border-white" name="" id=""></textarea>
+                            <label className="block h5 mb-2 text-tertiary" htmlFor="">Message</label>
+                                <textarea rows='4' placeholder="Message" className="w-full px-3 py-4 rounded-[30px] bg-white outline-none focus:border-white" name="" id=""></textarea>
                             </div>
                             <p className="p py-4 text-justify">By submitting this form you agree to our <span className="text-blue-700 hover:underline cursor-pointer"><a href="/terms">terms and conditions</a></span> and our <span className="text-blue-700 hover:underline cursor-pointer"><a href="/privacy">privacy policy</a></span> which explains how we may collect, use and disclose your personal information including to third parties.</p>
-                            <button className="learnbtn p-8 items-center xl:mx-0 text-primary bg-white"><a      href="/about">Send Message</a>
+                            <button className="learnbtn p-8 items-center xl:mx-0 text-tertiary bg-[#f6f6f6] shadow-custom8"><a href="/about">Send Message</a>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 fill-[#c0c0c0]">
                                 <path fillRule="evenodd" d="M13.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L11.69 12 4.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clipRule="evenodd" />
                                 <path fillRule="evenodd" d="M19.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06L17.69 12l-6.97-6.97a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clipRule="evenodd" />
@@ -102,12 +106,12 @@ export default function ContactBody() {
             </div>
          </section>
          {/** Newsletter **/}
-         <section className="section bg-[#f6f6f6] md:h-[444px] py-12 flex items-center relative overflow-hidden px-20">
-            <div className="newsletter__container container mx-auto">
+         <section className="section bg-[#f6f6f6] items-center relative overflow-hidden">
+            <div className="container mx-auto">
                 <div className="flex flex-col lg:flex-row lg:items-center lg:gap-[58px]">
                     <div className="flex-1 z-10 text-center md:text-left">
-                        <span className="font-meduim leading-normal text-primary uppercase">Our Newsletter</span>
-                        <h1 className="h1 mb-4 text-tertiary">Subscribe to get more updates</h1>
+                        <span className="font-[oswald] font-meduim leading-normal text-[#cdb99f] uppercase">Our Newsletter</span>
+                        <h1 className="h1 text-tertiary">Subscribe to get more updates</h1>
                     </div>
                     <form className="flex-1">
                         <div className="flex flex-col md:flex-row relative gap-y-4">

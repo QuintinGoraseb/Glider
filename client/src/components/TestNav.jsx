@@ -71,7 +71,7 @@ export default function TestNav() {
                 <div className="">
                     <a href="/home" className="flex items-center justify-center gap-2 lg:justify-normal">
                         <img src="/img/logo.png" className="size-11" alt="Logo" />
-                        <span className="font-[playfair] font-bold text-2xl text-[#f6f6f6]">GLIDER</span>
+                        <span className="font-[roboto slap] font-bold text-2xl text-[#f6f6f6]">GLIDER</span>
                     </a>
                 </div>
                 <div>

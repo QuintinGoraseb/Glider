@@ -1,3 +1,8 @@
+import ScrollReveal from 'scrollreveal'
+
+
+
+
 
  /* Mobile Nav */
  
@@ -19,3 +24,12 @@
     }
  });
 
+
+ const sr = ScrollReveal({
+    origin: 'bottom',
+    distance: '60px',
+    duration: '3000',
+    delay: '600',
+});
+
+sr.reveal('.hero__text');
